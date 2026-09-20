@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main()
 {
-    int num=153,n,rem,fact=1,sum=0;
+    int num,n,rem,fact=1,sum=0;
+    printf("enter the value to check armstrong number");
+    scanf("%d",&num);
     int temp=num;
     for(int num=1;num<=n;num++)
     while(temp>0)
